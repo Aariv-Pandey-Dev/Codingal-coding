@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+goal = input("Enter one skill you want to get better at: ")
+target_date = input("Enter a target month to achieve this goal: ")
+daily_minutes = 30
+print("\nMy personal goal plan:\n")
+print(f"Name: {name}")
+print(f"Skill to improve: {goal}")
+print(f"Target month: {target_date}")
+print(f"Daily practice (minutes): {daily_minutes}")
+print("Status: ")
+print("Not started")
+print("In one sentence:")
+print(f"My name is {name}, and I want to improve my skill in {goal} by {target_date} by practicing for {daily_minutes} minutes every day.")
